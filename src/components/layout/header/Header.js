@@ -1,10 +1,9 @@
 import React from "react";
-
 //IMPORT STYLES
 import {
   HeaderContainer,
-  MenuLink,
-  Menu,
+  HeaderLink,
+  HeaderList,
   AnunciarLink,
   Anunciar,
   EntrarLink,
@@ -18,40 +17,33 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Logo />
-      <Menu>
-        <MenuLink href="https://www.zapimoveis.com.br/venda/">
-          {" "}
-          Compra{" "}
-        </MenuLink>
-        <MenuLink href="https://www.zapimoveis.com.br/venda/">
-          {" "}
-          Aluguel{" "}
-        </MenuLink>
-        <MenuLink href="https://www.zapimoveis.com.br/venda/">
-          {" "}
-          Lançamentos{" "}
-        </MenuLink>
-        <MenuLink href="https://www.zapimoveis.com.br/venda/">
-          {" "}
-          Descobrir{" "}
-        </MenuLink>
-        <MenuLink href="https://www.zapimoveis.com.br/venda/">
-          {" "}
-          Central de ajuda{" "}
-        </MenuLink>
+      <HeaderList>
+        <HeaderLink href="https://www.zapimoveis.com.br/venda/">
+          Compra
+        </HeaderLink>
+        <HeaderLink href="https://www.zapimoveis.com.br/venda/">
+          Aluguel
+        </HeaderLink>
+        <HeaderLink href="https://www.zapimoveis.com.br/venda/">
+          Lançamentos
+        </HeaderLink>
+        <HeaderLink href="https://www.zapimoveis.com.br/venda/">
+          Descobrir
+        </HeaderLink>
+        <HeaderLink href="https://www.zapimoveis.com.br/venda/">
+          Central de ajuda
+        </HeaderLink>
         <AnunciarLink>
           <Anunciar href="https://www.zapimoveis.com.br/venda/">
-            {" "}
-            Anunciar imóveis{" "}
+            Anunciar imóveis
           </Anunciar>
         </AnunciarLink>
         <EntrarLink>
           <Entrar href="https://www.zapimoveis.com.br/venda/">
-            {" "}
-            Entrar ou cadastrar{" "}
+            Entrar ou cadastrar
           </Entrar>
         </EntrarLink>
-      </Menu>
+      </HeaderList>
     </HeaderContainer>
   );
 };

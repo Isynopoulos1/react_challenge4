@@ -12,7 +12,7 @@ export const HeaderContainer = styled.div`
   margin: 0px;
 `;
 
-export const Menu = styled.div`
+export const HeaderList = styled.div`
   display: flex;
   align-items: center;
   justify-content: right;
@@ -21,7 +21,8 @@ export const Menu = styled.div`
     transition: color 0.5s;
   }
 `;
-export const MenuLink = styled.a`
+
+export const HeaderLink = styled.a`
   display: flex;
   text-decoration: none;
   font-size: 1rem;
