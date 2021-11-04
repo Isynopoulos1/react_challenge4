@@ -12,7 +12,7 @@ export const Tittle = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-left: 100px;
+  margin-left: 200px;
 `;
 
 export const Main = styled.img`

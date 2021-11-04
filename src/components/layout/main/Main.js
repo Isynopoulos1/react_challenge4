@@ -1,13 +1,10 @@
 import React from "react";
 
 //IMPORT STYLES
-import {
-  MainContainer,
-  MainImg,
-  Tittle,
-  MainText,
-  Subtext
-} from "./Main.styles";
+import { MainContainer, Tittle, MainText, Subtext } from "./Main.styles";
+
+//IMPORT COMPONENTS
+import Items from "../../elements/Items/Items";
 
 const Main = () => {
   return (
@@ -25,6 +22,7 @@ const Main = () => {
           </Subtext>
         </Tittle>
       </MainContainer>
+      <Items />
     </main>
   );
 };
