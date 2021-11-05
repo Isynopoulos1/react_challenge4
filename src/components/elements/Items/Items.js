@@ -13,25 +13,25 @@ const Items = () => {
       <ItemsTittle>Últimos imóveis vistos por você</ItemsTittle>
       <Cards>
         <Card
-          image="https://ik.imagekit.io/ppayaz/react_challenge3/101eb50f9a678dec8855bb110ae0cb32_bZwG4eubn.jpg?updatedAt=1635950748422"
+          image="https://ik.imagekit.io/ppayaz/react_challenge3/bench-accounting-nvzvOPQW0gc-unsplash_l7BgEkVcT.jpeg?updatedAt=1636128123237"
+          type="PRICE"
+          value="44 m2  1 quarto 1 vago"
+          title="TITTLE"
+        />
+        <Card
+          image="https://ik.imagekit.io/ppayaz/react_challenge3/amira-aboalnaga-f9O-1eKGlQM-unsplash_ScFr8tYxj.jpeg?updatedAt=1636128128331"
           type="jaja"
           value="bubu"
           title="blabla"
         />
         <Card
-          image="https://ik.imagekit.io/ppayaz/react_challenge3/101eb50f9a678dec8855bb110ae0cb32_bZwG4eubn.jpg?updatedAt=1635950748422"
+          image="https://ik.imagekit.io/ppayaz/react_challenge3/naomi-hebert-2dcYhvbHV-M-unsplash_2w9hxAmOkj.jpeg?updatedAt=1636128134208"
           type="jaja"
           value="bubu"
           title="blabla"
         />
         <Card
-          image="https://ik.imagekit.io/ppayaz/react_challenge3/101eb50f9a678dec8855bb110ae0cb32_bZwG4eubn.jpg?updatedAt=1635950748422"
-          type="jaja"
-          value="bubu"
-          title="blabla"
-        />
-        <Card
-          image="https://ik.imagekit.io/ppayaz/react_challenge3/101eb50f9a678dec8855bb110ae0cb32_bZwG4eubn.jpg?updatedAt=1635950748422"
+          image="https://ik.imagekit.io/ppayaz/react_challenge3/kara-eads-L7EwHkq1B2s-unsplash_tvjB5Fvc6.jpeg?updatedAt=1636128030456"
           type="jaja"
           value="bubu"
           title="blabla"

@@ -5,9 +5,9 @@ export const CardWrapper = styled.div`
   flex-direction: column;
   width: 232px;
   height: 298px;
-  border: 1px solid black;
   margin-top: 50px;
   color: black;
+  box-shadow: 0 2px 8px 0 #ccc;
 `;
 
 export const CardImage = styled.img`
