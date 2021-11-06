@@ -26,6 +26,7 @@ export const MainText = styled.p`
   margin-bottom: 20px;
   display: flex;
   margin-top: 30px;
+  font-weight: 600;
 `;
 export const Subtext = styled.p`
   font-size: 1.3rem;

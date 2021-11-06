@@ -17,7 +17,7 @@ export const Cards = styled.div`
 export const ItemsTittle = styled.div`
   display: flex;
   font-family: helvetica;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
   margin-top: 30px;
 `;
