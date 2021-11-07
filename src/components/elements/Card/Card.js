@@ -10,7 +10,7 @@ const Card = ({ image, type, value, title }) => {
       <CardImage src={image} />
 
       <Tittle>
-        <h1>{title}</h1>
+        <p>{title}</p>
       </Tittle>
       <Price>
         <p>{type}</p>

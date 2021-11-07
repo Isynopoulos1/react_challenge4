@@ -6,6 +6,7 @@ export const MainContainer = styled.div`
   background-position: center 20%;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #fff;
 `;
 export const Tittle = styled.div`
   position: relative;

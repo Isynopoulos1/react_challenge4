@@ -5,6 +5,7 @@ import { MainContainer, Tittle, MainText, Subtext } from "./Main.styles";
 
 //IMPORT COMPONENTS
 import Items from "../../elements/Items/Items";
+import Button from "../../elements/Button/Button";
 
 const Main = () => {
   return (
@@ -23,6 +24,7 @@ const Main = () => {
         </Tittle>
       </MainContainer>
       <Items />
+      <Button icon="chevron_left" icon2="people" />
     </main>
   );
 };

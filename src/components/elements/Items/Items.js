@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 //IMPORT STYLES
 import { ItemsWrapper, ItemsTittle, Cards } from "./Items.styles";
