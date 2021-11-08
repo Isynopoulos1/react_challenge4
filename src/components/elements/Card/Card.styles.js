@@ -8,6 +8,10 @@ export const CardWrapper = styled.div`
   margin-top: 50px;
   color: black;
   box-shadow: 0 2px 8px 0 #ccc;
+  &:hover {
+    box-shadow: 0 2px 20px 0 rgb(0 0 0 / 30%);
+    transition: 0.5s;
+  }
 `;
 
 export const CardImage = styled.img`
