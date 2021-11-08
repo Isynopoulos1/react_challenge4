@@ -18,6 +18,8 @@ export const Tittle = styled.div`
 
 export const Main = styled.img`
   position: relative;
+  width: 1048 px;
+  height: auto;
 `;
 
 export const MainText = styled.p`

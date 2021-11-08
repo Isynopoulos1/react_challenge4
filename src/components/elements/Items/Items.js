@@ -5,6 +5,7 @@ import { ItemsWrapper, ItemsTittle, Cards } from "./Items.styles";
 
 //IMPORT COMPONENTS
 import Card from "../Card/Card";
+import Slider from "../Slider/Slider";
 
 const Items = () => {
   return (
@@ -36,6 +37,7 @@ const Items = () => {
           title="Hampden-Sydney College"
         />
       </Cards>
+      <Slider icon="chevron_left" icon2="chevron_right" />
     </ItemsWrapper>
   );
 };
