@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const CardWrapper = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 232px;
@@ -8,6 +9,7 @@ export const CardWrapper = styled.div`
   margin-top: 50px;
   color: black;
   box-shadow: 0 2px 8px 0 #ccc;
+  cursor: pointer;
   &:hover {
     box-shadow: 0 2px 20px 0 rgb(0 0 0 / 30%);
     transition: 0.5s;
@@ -44,4 +46,13 @@ export const Details = styled.div`
   font-family: helvetica;
   margin-left: 10px;
   margin-top: 30px;
+`;
+
+export const Icon = styled.i`
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  font-family: "Material Icons";
+  font-size: 24px;
 `;

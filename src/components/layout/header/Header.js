@@ -16,7 +16,7 @@ import Logo from "../../elements/Logo/Logo";
 const Header = () => {
   return (
     <HeaderContainer>
-      <Logo />
+      <Logo img="https://ik.imagekit.io/ppayaz/react_challenge3/Captura_de_Pantalla_2021-11-03_a_la_s__15.39.40_u9wrlw2jsY.png?updatedAt=1635950522411" />
       <HeaderList>
         <HeaderLink href="https://www.zapimoveis.com.br/venda/">
           Compra

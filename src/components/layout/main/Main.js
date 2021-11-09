@@ -5,7 +5,6 @@ import { MainContainer, Tittle, MainText, Subtext } from "./Main.styles";
 
 //IMPORT COMPONENTS
 import Items from "../../elements/Items/Items";
-import Slider from "../../elements/Slider/Slider";
 
 const Main = () => {
   return (

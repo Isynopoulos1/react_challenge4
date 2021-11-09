@@ -2,13 +2,19 @@ import React from "react";
 import PropTypes from "prop-types";
 
 //IMPORT STYLES
-import { CardImage, CardWrapper, Tittle, Price, Details } from "./Card.styles";
+import {
+  CardImage,
+  CardWrapper,
+  Tittle,
+  Price,
+  Details,
+  Icon
+} from "./Card.styles";
 
 const Card = ({ image, type, value, title }) => {
   return (
     <CardWrapper>
       <CardImage src={image} />
-
       <Tittle>
         <p>{title}</p>
       </Tittle>
@@ -18,6 +24,7 @@ const Card = ({ image, type, value, title }) => {
       <Details>
         <span>{value}</span>
       </Details>
+      <Icon>favorite_border</Icon>
     </CardWrapper>
   );
 };
