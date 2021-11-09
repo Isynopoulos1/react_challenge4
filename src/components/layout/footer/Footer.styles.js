@@ -30,24 +30,13 @@ export const ServicesList = styled.div`
   padding-left: 24px;
 `;
 
-export const List1 = styled.ul`
+export const List = styled.ul`
   font-size: 15px;
   font-family: helvetica;
   color: white;
   font-weight: lighter;
   margin-right: 150px;
-`;
-export const List2 = styled.ul`
-  font-size: 15px;
-  font-family: helvetica;
-  color: white;
-  font-weight: lighter;
-  margin-right: 150px;
-`;
-export const List3 = styled.ul`
-  font-size: 15px;
-  font-family: helvetica;
-  color: white;
-  font-weight: lighter;
-  margin-right: 150px;
+  li {
+    padding-bottom: 30px;
+  }
 `;

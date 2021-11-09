@@ -7,6 +7,37 @@ import { MainContainer, Tittle, MainText, Subtext } from "./Main.styles";
 import Items from "../../elements/Items/Items";
 
 const Main = () => {
+  const appartments = [
+    {
+      image:
+        "https://ik.imagekit.io/ppayaz/react_challenge3/bench-accounting-nvzvOPQW0gc-unsplash_l7BgEkVcT.jpeg?updatedAt=1636128123237",
+      title: "sfkhjaf",
+      price: 12123,
+      detail: "asfasf"
+    },
+    {
+      image:
+        "https://ik.imagekit.io/ppayaz/react_challenge3/bench-accounting-nvzvOPQW0gc-unsplash_l7BgEkVcT.jpeg?updatedAt=1636128123237",
+      title: "sfkhjaf",
+      price: 12123,
+      detail: "asfasf"
+    },
+    {
+      image:
+        "https://ik.imagekit.io/ppayaz/react_challenge3/bench-accounting-nvzvOPQW0gc-unsplash_l7BgEkVcT.jpeg?updatedAt=1636128123237",
+      title: "sfkhjaf",
+      price: 12123,
+      detail: "asfasf"
+    },
+    {
+      image:
+        "https://ik.imagekit.io/ppayaz/react_challenge3/bench-accounting-nvzvOPQW0gc-unsplash_l7BgEkVcT.jpeg?updatedAt=1636128123237",
+      title: "sfkhjaf",
+      price: 12123,
+      detail: "asfasf"
+    }
+  ];
+
   return (
     <main>
       <MainContainer
