@@ -7,7 +7,38 @@ import { MainContainer, Tittle, MainText, Subtext } from "./Main.styles";
 import Items from "../../elements/Items/Items";
 
 const Main = () => {
-  const appartments = [
+  const appartments1 = [
+    {
+      image:
+        "https://ik.imagekit.io/ppayaz/react_challenge3/bench-accounting-nvzvOPQW0gc-unsplash_l7BgEkVcT.jpeg?updatedAt=1636128123237",
+      title: "sfkhjaf",
+      price: "$12340",
+      detail: "asfasf"
+    },
+    {
+      image:
+        "https://ik.imagekit.io/ppayaz/react_challenge3/bench-accounting-nvzvOPQW0gc-unsplash_l7BgEkVcT.jpeg?updatedAt=1636128123237",
+      title: "sfkhjaf",
+      price: 12123,
+      detail: "asfasf"
+    },
+    {
+      image:
+        "https://ik.imagekit.io/ppayaz/react_challenge3/bench-accounting-nvzvOPQW0gc-unsplash_l7BgEkVcT.jpeg?updatedAt=1636128123237",
+      title: "sfkhjaf",
+      price: 12123,
+      detail: "asfasf"
+    },
+    {
+      image:
+        "https://ik.imagekit.io/ppayaz/react_challenge3/bench-accounting-nvzvOPQW0gc-unsplash_l7BgEkVcT.jpeg?updatedAt=1636128123237",
+      title: "sfkhjaf",
+      price: 12123,
+      detail: "asfasf"
+    }
+  ];
+
+  const appartments2 = [
     {
       image:
         "https://ik.imagekit.io/ppayaz/react_challenge3/bench-accounting-nvzvOPQW0gc-unsplash_l7BgEkVcT.jpeg?updatedAt=1636128123237",
@@ -53,7 +84,8 @@ const Main = () => {
           </Subtext>
         </Tittle>
       </MainContainer>
-      <Items />
+      <Items list={appartments1} />
+      <Items list={appartments2} />
     </main>
   );
 };

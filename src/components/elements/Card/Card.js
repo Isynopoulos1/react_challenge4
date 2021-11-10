@@ -11,7 +11,7 @@ import {
   Icon
 } from "./Card.styles";
 
-const Card = ({ image, type, value, title }) => {
+const Card = ({ image, price, detail, title }) => {
   return (
     <CardWrapper>
       <CardImage src={image} />
@@ -19,10 +19,10 @@ const Card = ({ image, type, value, title }) => {
         <p>{title}</p>
       </Tittle>
       <Price>
-        <p>{type}</p>
+        <p>{price}</p>
       </Price>
       <Details>
-        <span>{value}</span>
+        <span>{detail}</span>
       </Details>
       <Icon>favorite_border</Icon>
     </CardWrapper>
@@ -31,15 +31,15 @@ const Card = ({ image, type, value, title }) => {
 
 Card.propTypes = {
   img: PropTypes.string,
-  type: PropTypes.string,
-  value: PropTypes.string,
+  price: PropTypes.string,
+  detail: PropTypes.string,
   label: PropTypes.string
 };
 
 Card.defaultProps = {
   img: "",
-  type: "",
-  value: "",
+  price: "",
+  detail: "",
   label: ""
 };
 
