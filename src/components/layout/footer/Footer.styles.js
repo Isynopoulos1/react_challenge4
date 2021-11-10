@@ -31,6 +31,7 @@ export const ServicesList = styled.div`
 `;
 
 export const List = styled.ul`
+  cursor: pointer;
   font-size: 15px;
   font-family: helvetica;
   color: white;

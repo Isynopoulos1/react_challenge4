@@ -50,21 +50,21 @@ const Main = () => {
       image:
         "https://ik.imagekit.io/ppayaz/react_challenge3/naomi-hebert-2dcYhvbHV-M-unsplash_2w9hxAmOkj.jpeg?updatedAt=1636128134208",
       title: "H. Rackham",
-      price: 12123,
+      price: 76469,
       detail: "30m²"
     },
     {
       image:
         "https://ik.imagekit.io/ppayaz/react_challenge3/francesca-tosolini-w1RE0lBbREo-unsplash_P0aVWLYt9.jpeg?updatedAt=1636407263250",
       title: "Renaissance",
-      price: 12123,
+      price: 17743,
       detail: "20m²"
     },
     {
       image:
         "https://ik.imagekit.io/ppayaz/react_challenge3/kara-eads-L7EwHkq1B2s-unsplash_tvjB5Fvc6.jpeg?updatedAt=1636128030456",
       title: "Aldus",
-      price: 12123,
+      price: 709623,
       detail: "35m²"
     }
   ];
