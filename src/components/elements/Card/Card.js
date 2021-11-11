@@ -30,14 +30,14 @@ const Card = ({ image, price, detail, title }) => {
 };
 
 Card.propTypes = {
-  img: PropTypes.string,
-  price: PropTypes.string,
+  image: PropTypes.string,
+  price: PropTypes.number,
   detail: PropTypes.string,
   label: PropTypes.string
 };
 
 Card.defaultProps = {
-  img: "",
+  image: "",
   price: "",
   detail: "",
   label: ""
